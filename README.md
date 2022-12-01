@@ -25,7 +25,7 @@ $$ (A \wedge B)\vee C = (A \vee C)\wedge(B\vee C) $$
 
 $$ {E_{1}^2}=\sqrt{\frac{F\alpha^{x-1}}{(x-1)\cdot x}+\alpha_{1}^{\frac{1}{3}}+\beta_{2}^{\frac{2}{3}}} $$
 
-![lagrida_latex_editor (6)](https://user-images.githubusercontent.com/76615554/200738041-193c37ca-b0fb-44b9-b8c1-98bffff32142.png)
+![lagrida_latex_editor (5)](https://user-images.githubusercontent.com/76615554/204966121-f8ee0751-1151-4d3f-8519-5555d41ffa46.png)
 
 $$ m=\rho V $$
 
