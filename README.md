@@ -36,3 +36,4 @@ $$ g _{h}= {\frac{Gm}{(R+h)^{2}}} $$
 
 ![lagrida_latex_editor (5)](https://user-images.githubusercontent.com/76615554/200735451-bc18a882-9111-41a0-88d1-241ca4c280b8.png)
 
+![mermaid-diagram-2022-12-21-110800](https://user-images.githubusercontent.com/76615554/208820166-10c45fa0-1038-489f-a770-901707971ba5.png)
