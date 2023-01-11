@@ -1,4 +1,4 @@
-def f(5):
+def f5():
     for N in range(516):
         b=f'{N:b}'
         if N % 2 == 0:
