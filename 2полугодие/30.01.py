@@ -17,3 +17,11 @@ a=[1,2,3,0]
 #print(list(map(lambda x:str(x),a)))
 #print(list(map(str(a),a)))-не работает
 print(list(filter(lambda x: x%2==0,a))if a else 0)
+------------------------------------------------------------------------------------------------------------------------
+from functools import reduce
+a=[1,2,3,4,5,6,7,8,9]
+b=list(map(lambda x:x**3,a))
+print(b)
+#c=list(filter(lambda x: x>100,b))
+c=reduce((lambda x,y:x*y),a)
+print(c)
