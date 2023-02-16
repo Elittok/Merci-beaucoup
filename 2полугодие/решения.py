@@ -22,16 +22,22 @@ def f6():
             dot(5)
     done()
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-def f8():
-    from itertools import product
-    nums=product('01234567', repeat=5)
-    k=01234567
-    n='16 36 56 76 61 63 65 67'
-    nn=n.split()
-    for n in nums:
-        numb=''.join(n)
-        sp=[]
-        if numb.count('6')==1 and numb[0]!='0':
+from itertools import product
+def f(x,y,z):
+    count=0
+    for i in range(1,z):
+        b=product('12',repeat=i)
+        for pr in b:
+            a=x
+            if x==10 and pr.count('2')>1:continue
+            for com in pr:
+                if a==17: break 
+                if com=='1':a+=1
+                else:a*=2
+            if a==y: count+=1
+    return count             
+print(f(10,35,25)*f(1,10,10))
+
             for x in nn:
                 if x in numb:
                     sp.append(x)
@@ -89,13 +95,18 @@ def f15():
             print(a)
             break
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-def x():
-    from itertools import product
-    for i in range(2,6):
+from itertools import product
+def f23(x,y,z):
+    count=0
+    for i in range(1,z):
         b=product('12',repeat=i)
-        for n in b:
-            a=5
-            for x in n:
-                if x=='1': a-=1
-                else: a*=4
-            if a==62: print(n)
+        for pr in b:
+            a=x
+            if x==10 and pr.count('2')>1:continue
+            for com in pr:
+                if a==17: break 
+                if com=='1':a+=1
+                else:a*=2
+            if a==y: count+=1
+    return count             
+print(f23(10,35,25)*f23(1,10,10))
