@@ -60,7 +60,7 @@ sum(res6) - сумма элементов
 
 #12
 
-if all(num%delit!=0 for delit in range(2,num)) - если се условия правда
+if all(num%delit!=0 for delit in range(2,num)) - если все условия правда
 
 #14
 
