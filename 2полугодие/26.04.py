@@ -1,3 +1,14 @@
+#22222222222222222222222222222222222222222222222222222222222
+def is_unique(num):
+    n=len(str(num))
+    sum_digits=sum([int(digit)**n for digit in str(num)])
+    return num==sum_digits
+unique_sum=0
+for num in range(10, 1000001):
+    if is_unique(num):
+        unique_sum+=num
+print(unique_sum)
+#33333333333333333333333333333333333333333333333333333333333
 from itertools import product
 p=0
 def makeTwoMinMax(num):
